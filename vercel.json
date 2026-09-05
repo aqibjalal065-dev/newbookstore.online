@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/shop", "destination": "/" },
+    { "source": "/categories", "destination": "/" },
+    { "source": "/bestsellers", "destination": "/" },
+    { "source": "/about", "destination": "/" },
+    { "source": "/contact", "destination": "/" },
+    { "source": "/cart", "destination": "/" },
+    { "source": "/checkout", "destination": "/" },
+    { "source": "/account", "destination": "/" },
+    { "source": "/book/:id", "destination": "/" },
+    { "source": "/shop/:path*", "destination": "/" },
+    { "source": "/book/:id/:path*", "destination": "/" }
+  ]
+}
